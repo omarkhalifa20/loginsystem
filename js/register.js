@@ -54,7 +54,7 @@ function addtolocal() {
             formdata.push(data);
             savetolocal();
             clearinput();
-            window.location.href = "login.html";
+            window.location.href = "index.html";
         }
     }
 }
