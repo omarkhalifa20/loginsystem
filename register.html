@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Register</title>
+</head>
+<body>
+    <div class="vh-100  d-flex align-items-center justify-content-center">
+      <h1 class="text-black text-center mt-5 fixed-top">Smart Login System</h1>
+        <div class="form p-5">
+            <p class="form-title mb-4">Sign Up to your account</p>
+             <div class="form-style">
+              <div class="mb-3">
+                <input id="namereg" class="form-control " placeholder="Enter your name" type="text">
+                <div id="namealert" class="d-none p-1 mt-0 text-center alert alert-danger" role="alert">
+                  Minimum three letters
+                </div>
+              </div>
+              <div class="mb-3">
+                <input id="emailreg" class="form-control " placeholder="Enter your email" type="email">
+                <div id="emailalert" class="d-none p-1 mt-0 text-center alert alert-danger" role="alert">
+                  Use a vaild mail example (example@gmail.com)
+                </div>
+                <div id="emailfound" class="d-none p-1 mt-0 text-center alert alert-danger" role="alert">
+                  The email already exists. Use another email.
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <input id="passwordreg" class="form-control " placeholder="Enter password" type="password">
+                 <div id="passwordalert" class="d-none p-1 mt-0 text-center alert alert-danger" role="alert">
+                  The password must be at least 6 numbers or letters.
+                </div>
+              </div>
+                 
+               <button id="regbtn" class="btn btn-outline-light w-100 mb-4" type="submit">
+                Sign Up
+               </button>
+               <div id="success" class="d-none">
+                <h6 class="text-center text-success">Success</h6>
+             </div>  
+             </div>
+               
+        
+           <p class="signup-link">
+            You have an account? 
+             <a class="text-white" href="./login.html">Sign in</a>
+           </p>
+        </div>
+    </div>
+    
+   
+      
+
+
+      
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/register.js"></script>
+</body>
+</html>

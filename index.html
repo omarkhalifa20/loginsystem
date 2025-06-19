@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Login</title>
+</head>
+<body>
+
+<div class="vh-100  d-flex align-items-center justify-content-center">
+  <h1 class=" text-center mt-5 text-black fixed-top">Smart Login System</h1>
+  <div class="form p-5">
+        <p class="form-title mb-4">Sign in to your account</p>
+         <div class="form-style">
+          <div class="mb-3">
+             <input id="email" class="form-control" placeholder="Enter email" type="email">
+             <div id="emaildanger" class="d-none p-1 mt-0 text-center alert alert-danger" role="alert">
+              Create Account..Email Not exists 
+            </div>
+          </div>
+             <div class="mb-3">
+              <input id="password" class="form-control " placeholder="Enter password" type="password">
+              <div id="passworddanger" class="d-none p-1 mt-0 text-center alert alert-danger" role="alert">
+                Wrong Password
+              </div>
+             </div>           
+              
+           <button id="loginbtn" class="btn btn-outline-light w-100 mb-4" type="submit">
+            Sign in
+           </button>
+         </div>
+         <div id="success" class="d-none">
+          <h6 class="text-center text-success">Success</h6>
+       </div>  
+           
+    
+       <p class="signup-link">
+        Don’t have an account?
+         <a class="text-white" href="./register.html">Sign up</a>
+       </p>
+    </div>
+</div>
+
+
+   
+      
+
+
+      
+<script src="./js/bootstrap.bundle.min.js"></script>
+<script src="./js/login.js"></script>
+</body>
+</html>
